@@ -36,19 +36,22 @@ body{
 
 
 /*====================================*/
-
 /*       Main Area Start         */
-
 /*====================================*/
 
 .main-area{
     background: #f0f2f5;
-    /* overflow: hidden; */
+    overflow: hidden;
+    padding: 135px;
+}
+.main-area .facebook-image img{
+    width: 316px;
 }
 
+.main-area .facebook-help h2 {
+    margin-left: 32px;
+}
 /*====================================*/
-
 /*       Main Area End         */
-
 /*====================================*/
 
