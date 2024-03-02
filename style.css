@@ -1,6 +1,6 @@
 body{
     margin: 0;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: SF Pro Display, Arial, Helvetica, sans-serif;
 }
 
 /*====================================*/
@@ -44,6 +44,7 @@ body{
     background: #f0f2f5;
     overflow: hidden;
     padding: 135px;
+    
 }
 .main-area .facebook-image img{
     width: 316px;
@@ -51,6 +52,16 @@ body{
 
 .main-area .facebook-help h2 {
     margin-left: 32px;
+    /* color: #494b4e; */
+    font-weight: normal;
+}
+.main-area .login-form {
+    background: #ffffff;
+}
+.main-area .login-form input{
+    width: 100%;
+    display: block;
+    box-sizing: border-box;
 }
 /*====================================*/
 /*       Main Area End         */
