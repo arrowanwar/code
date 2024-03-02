@@ -57,11 +57,14 @@ body{
 }
 .main-area .login-form {
     background: #ffffff;
+    padding: 18px;
 }
 .main-area .login-form input{
     width: 100%;
     display: block;
     box-sizing: border-box;
+    padding: 18px;
+    margin-bottom: 18px;
 }
 /*====================================*/
 /*       Main Area End         */
