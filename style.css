@@ -49,8 +49,9 @@ body{
     width: 316px;
 }
 
-.main-area .facebook-help h2 {
+.main-area .facebook-help h1 {
     margin-left: 32px;
+    font-weight: normal;
 }
 /*====================================*/
 /*       Main Area End         */
