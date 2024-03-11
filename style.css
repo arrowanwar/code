@@ -87,7 +87,9 @@ body{
     border: none;
     border-radius: 7px;
 }
-
+::placeholder {
+  font-size: 12px;
+}
 /*====================================*/
 /*       Main Area End         */
 /*====================================*/
