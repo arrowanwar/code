@@ -74,7 +74,11 @@ body{
     border: 1px solid #dddfe2;
     /* border-color: #0866ff; */
 }
-
+.main-area .login-form input[type="text"]::focus, 
+.main-area .login-form input[type="password"]::focus
+{
+  border: 1px solid red;
+}
 .main-area .login-form input[type="submit"]{
     width: 100%;
     display: block;
