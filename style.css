@@ -61,6 +61,7 @@ body{
 .main-area .login-form {
     background: #ffffff;
     padding: 18px;
+    border-radius: 7px;
 }
 .main-area .login-form input[type="text"], 
 .main-area .login-form input[type="password"]
@@ -70,7 +71,7 @@ body{
     box-sizing: border-box;
     padding: 18px;
     margin-bottom: 18px;
-    /* border: 1px solid #dddfe2; */
+    border: 1px solid #dddfe2;
     border: none;
     /* border-color: #0866ff; */
 }
@@ -84,6 +85,7 @@ body{
     font-size: 20px;
     font-weight: bold;
     line-height: 48px;
+    border: none;
 }
 
 /*====================================*/
