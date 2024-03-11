@@ -1,6 +1,6 @@
 body{
     margin: 0;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: SF Pro Display, Arial, Helvetica, sans-serif;
 }
 
 /*====================================*/
@@ -44,6 +44,7 @@ body{
     background: #f0f2f5;
     overflow: hidden;
     padding: 135px;
+    
 }
 .main-area .facebook-image img{
     width: 316px;
@@ -51,8 +52,40 @@ body{
 
 .main-area .facebook-help h1 {
     margin-left: 32px;
+<<<<<<< HEAD
+=======
+    /* color: #494b4e; */
+>>>>>>> 642613042be2245ce5b6c6cafca84735528195fb
     font-weight: normal;
 }
+.main-area .login-form {
+    background: #ffffff;
+    padding: 18px;
+}
+.main-area .login-form input[type="text"], 
+.main-area .login-form input[type="password"]
+{
+    width: 100%;
+    display: block;
+    box-sizing: border-box;
+    padding: 18px;
+    margin-bottom: 18px;
+    /* border: 1px solid #dddfe2; */
+    border: none;
+    /* border-color: #0866ff; */
+}
+
+.main-area .login-form input[type="submit"]{
+    width: 100%;
+    display: block;
+    box-sizing: border-box;
+    background: #0866ff;
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 48px;
+}
+
 /*====================================*/
 /*       Main Area End         */
 /*====================================*/
