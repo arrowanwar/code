@@ -52,16 +52,15 @@ body{
 
 .main-area .facebook-help h1 {
     margin-left: 32px;
-<<<<<<< HEAD
-=======
-    /* color: #494b4e; */
->>>>>>> 642613042be2245ce5b6c6cafca84735528195fb
     font-weight: normal;
 }
 .main-area .login-form {
     background: #ffffff;
     padding: 18px;
     border-radius: 7px;
+}
+.main-area .login-form form{
+    border-radius: inherit;
 }
 .main-area .login-form input[type="text"], 
 .main-area .login-form input[type="password"]
@@ -71,6 +70,8 @@ body{
     box-sizing: border-box;
     padding: 18px;
     margin-bottom: 18px;
+    border-radius: inherit;
+    /* border-radius: 7px; */
     border: 1px solid #dddfe2;
     /* border-color: #0866ff; */
 }
