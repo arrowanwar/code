@@ -58,6 +58,13 @@ body{
     background: #ffffff;
     padding: 18px;
     border-radius: 7px;
+    text-align: center;
+}
+.main-area .login-form a {
+    padding: 16px 16px;
+    display: block;
+    text-decoration: none;
+    font-size: 14px;
 }
 .main-area .login-form form{
     border-radius: inherit;
@@ -74,6 +81,9 @@ body{
     /* border-radius: 7px; */
     border: 1px solid #dddfe2;
     /* border-color: #0866ff; */
+}
+.line{
+    border-top: 1px solid #dddfe2;
 }
 .main-area .login-form input[type="text"]::focus, 
 .main-area .login-form input[type="password"]::focus
@@ -93,7 +103,14 @@ body{
     border-radius: 7px;
 }
 ::placeholder {
-  font-size: 12px;
+  font-size: 16px;
+  color: #c2c4c9;
+}
+.bbnc{
+    display: block;
+    background: #42b72a;
+    width: 30%;
+    margin: 0 auto;
 }
 /*====================================*/
 /*       Main Area End         */
