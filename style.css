@@ -60,7 +60,7 @@ body{
     border-radius: 7px;
     text-align: center;
 }
-.main-area .login-form a {
+.main-area .login-form .forgotPassLink {
     padding: 16px 16px;
     display: block;
     text-decoration: none;
@@ -84,6 +84,7 @@ body{
 }
 .line{
     border-top: 1px solid #dddfe2;
+    margin: 18px 18px;
 }
 .main-area .login-form input[type="text"]::focus, 
 .main-area .login-form input[type="password"]::focus
@@ -107,11 +108,11 @@ body{
   color: #c2c4c9;
 }
 .bbnc{
-    display: block;
+    display: inline-block;
     background: #42b72a;
-    width: 30%;
-    margin: 0 auto;
-}
+    padding: 18px;
+    border-radius: 7px;
+
 /*====================================*/
 /*       Main Area End         */
 /*====================================*/
