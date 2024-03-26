@@ -61,10 +61,15 @@ body{
     text-align: center;
 }
 .main-area .login-form .forgotPassLink {
-    padding: 16px 16px;
-    display: block;
+    margin-top: 16px;
+    text-align: center;
+    font-family: 12px;
+}
+.main-area .login-form .forgotPassLink a {
     text-decoration: none;
+    color: #0866ff;
     font-size: 14px;
+    font-weight: 500;
 }
 .main-area .login-form form{
     border-radius: inherit;
