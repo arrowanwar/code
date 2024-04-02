@@ -43,7 +43,7 @@ body{
 .main-area{
     background: #f0f2f5;
     overflow: hidden;
-    padding: 135px;
+    padding: 135px 0;
     
 }
 .main-area .facebook-image img{
@@ -113,11 +113,20 @@ body{
   color: #c2c4c9;
 }
 .bbnc{
+    padding-top: 6px;
+}
+.bbnc2{
     display: inline-block;
     background: #42b72a;
-    padding: 18px;
+    line-height: 48px;
+    color: #fff;
+    padding: 0 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    font-weight: bold;
     border-radius: 7px;
-
+    text-decoration: none;
+}
 /*====================================*/
 /*       Main Area End         */
 /*====================================*/
