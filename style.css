@@ -14,8 +14,14 @@ body{
     float: left;
     box-sizing: border-box;
 }
-
-
+.container{
+    overflow: hidden;
+    width: 80%;
+    margin: auto;
+}
+h1{
+    margin: 0;
+}
 
 
 /*====================================*/
@@ -45,6 +51,10 @@ body{
     overflow: hidden;
     padding: 135px 0;
     
+}
+.main-area .facebook-image {
+    height: 106px;
+    margin: -28px;
 }
 .main-area .facebook-image img{
     width: 316px;
