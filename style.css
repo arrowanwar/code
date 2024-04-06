@@ -54,7 +54,8 @@ h1{
 }
 .main-area .facebook-image {
     height: 106px;
-    margin: -28px;
+    margin: 0 0 -68px 0 ;
+    background: red;
 }
 .main-area .facebook-image img{
     width: 316px;
