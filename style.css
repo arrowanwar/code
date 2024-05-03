@@ -16,7 +16,7 @@ body{
 }
 .container{
     overflow: hidden;
-    width: 80%;
+    width: 70%;
     margin: auto;
 }
 h1{
@@ -53,16 +53,19 @@ h1{
     
 }
 .main-area .facebook-image {
+    overflow: hidden;
+}
+.main-area .facebook-image .test {
     height: 106px;
-    margin: 0 0 -68px 0 ;
-    background: red;
+    margin: -28px ;
+    /* background: red; */
 }
 .main-area .facebook-image img{
     width: 316px;
 }
 
 .main-area .facebook-help h1 {
-    margin-left: 32px;
+    /* margin-left: 32px; */
     font-weight: normal;
 }
 .main-area .login-form {
@@ -70,6 +73,8 @@ h1{
     padding: 18px;
     border-radius: 7px;
     text-align: center;
+    width: 77%;
+    margin: auto;
 }
 .main-area .login-form .forgotPassLink {
     margin-top: 16px;
@@ -137,6 +142,9 @@ h1{
     font-weight: bold;
     border-radius: 7px;
     text-decoration: none;
+}
+.create-page {
+text-align: center;
 }
 /*====================================*/
 /*       Main Area End         */
